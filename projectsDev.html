@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mork's Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    
+  </head>
+  <body>
+
+    <nav id="desktop-nav">
+      <div class="logo" ><a onclick="location.href='./index.html'" >Supanat Klins</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a onclick="location.href='./index.html#about'">About</a></li>
+          <li><a onclick="location.href='./index.html#experience'" >Experience</a></li>
+          <li><a onclick="location.href='./index.html#projects'" >Projects</a></li>
+          <li><a onclick="location.href='./index.html#contact'" >Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo" ><a onclick="location.href='./index.html'" >Supanat Klins</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a onclick="location.href='./index.html#about'" onclick="toggleMenu()">About</a></li>
+          <li><a onclick="location.href='./index.html#experience'" onclick="toggleMenu()">Experience</a></li>
+          <li><a onclick="location.href='./index.html#projects'" onclick="toggleMenu()">Projects</a></li>
+          <li><a onclick="location.href='./index.html#contact'" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <div ><br /><br /><br /><br />
+      </div>
+    <section id="projects">
+      <h1 class="title">Dev Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/projects/submittobb/Thrumsnail2.jpg"
+                alt="Submit Houdini"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Submit Houdini to Backburner Script of Houdini</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://endk44.gumroad.com/l/oGszc', '_blank');"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+      
+      
+    </section>
+
+    <footer>
+     
+      <p>Copyright &#169; 2023 Supanat Klins (endk44). All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
