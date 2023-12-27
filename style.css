@@ -353,6 +353,7 @@ section {
 
 .article-container {
   display: flex;
+  justify-content: center;
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
@@ -384,6 +385,11 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+.project-img2 {
+  border-radius: 1rem;
   width: 90%;
   height: 90%;
 }
