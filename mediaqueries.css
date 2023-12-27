@@ -1,6 +1,7 @@
+/* mediaqueries.css */
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 100vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -15,17 +16,26 @@
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
+    
   }
+
   #hamburger-nav {
-    display: flex;
+    display: flex;    
   }
+
   #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
-  #profile,
+  #profile {
+    display: block;
+    height: 100vh;
+    padding-top: 160px; /* เพิ่มพื้นที่ว่างด้านบน 70px */
+  }
+
   .section-container {
     display: block;
+    
   }
   .arrow {
     display: none;
@@ -44,6 +54,7 @@
   }
   .about-containers {
     margin-top: 0;
+    
   }
 }
 
@@ -53,8 +64,9 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: 100vh;
     margin-bottom: 0;
+    
   }
   article {
     font-size: 1rem;

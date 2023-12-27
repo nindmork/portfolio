@@ -1,4 +1,4 @@
-/* GENERAL */
+/* style.css */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
@@ -7,8 +7,13 @@
   padding: 0;
 }
 
+
+
+
+
 body {
   font-family: "Poppins", sans-serif;
+  
 }
 
 html {
@@ -37,6 +42,11 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1000; 
+  
 }
 
 .nav-links {
@@ -70,6 +80,12 @@ a:hover {
 
 #hamburger-nav {
   display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000; 
 }
 
 .hamburger-menu {
@@ -166,7 +182,8 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 100vh;
+  
 }
 
 .section__pic-container {
@@ -174,6 +191,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  
 }
 
 .section__text {
