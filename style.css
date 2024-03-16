@@ -7,8 +7,18 @@
   padding: 0;
 }
 
-
-
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* จัดองค์ประกอบให้อยู่ตรงกลางแนวตั้ง */
+  text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+  margin: 0 auto; /* จัดให้คอนเทนเนอร์อยู่ตรงกลางของหน้า */
+  width: 80%; /* หรือขนาดที่คุณต้องการ */
+}
+.icon {
+  cursor: pointer;
+  /* ตั้งค่าเพิ่มเติมสำหรับการแสดงภาพ */
+}
 
 
 body {
