@@ -337,6 +337,7 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
+  justify-content: center;
 }
 
 .section__pic-container {

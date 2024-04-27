@@ -11,6 +11,14 @@
   #projects {
     height: fit-content;
   }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
 }
 @media screen and (max-width: 1400px) {
   #profile {
