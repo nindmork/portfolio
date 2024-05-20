@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mork's Portfolio iCRM - Backoffice customer management</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7JFWPHZKG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-D7JFWPHZKG');
+    </script>
+  </head>
+  <body>
+
+    <nav id="desktop-nav">
+      <div class="logo" ><a onclick="location.href='./index.html'" >Supanat Klins</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a onclick="location.href='./index.html#about'">About</a></li>
+          <li><a onclick="location.href='./index.html#experience'" >Experience</a></li>
+          <li><a onclick="location.href='./index.html#projects'" >Projects</a></li>
+          <li><a onclick="location.href='./index.html#contact'" >Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo" ><a onclick="location.href='./index.html'" >Supanat Klins</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a onclick="location.href='./index.html#about'" onclick="toggleMenu()">About</a></li>
+          <li><a onclick="location.href='./index.html#experience'" onclick="toggleMenu()">Experience</a></li>
+          <li><a onclick="location.href='./index.html#projects'" onclick="toggleMenu()">Projects</a></li>
+          <li><a onclick="location.href='./index.html#contact'" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <div ><br /><br /><br /><br /><br /><br />
+      </div>
+    <section id="projects">
+      <h1 class="title">iCRM - Backoffice customer management</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+        
+          <div class="details-container color-container">
+  
+            <div class="my-bottom-10px" style="margin-bottom: 10px;">
+              <p>iCRM (Intelligent Customer Relationship Management) ในรูปแบบของ Backoffice customer management เป็นระบบที่ออกแบบมาเพื่อช่วยให้บริษัทสามารถจัดการข้อมูลลูกค้าและปฏิสัมพันธ์กับลูกค้าได้อย่างมีประสิทธิภาพ</p>
+                  <li>พัฒนา Frontend ด้วย Typescript NextJs, Redux, Tailwind, TanStack-React, MUI, next-auth, i18next</li>
+                  <li>พัฒนา Authentication ด้วย OAuth, JWT Token ,GoogleOAuth2</li>
+                  <li>มีระบบ เปลี่ยนภาษา และ สามารถตั้ง profile ได้จากฝั่ง API</li>
+                  <li>มีระบบ themes และ สามารถตั้ง profile ได้จากฝั่ง API</li>
+             
+          </div>
+  
+            <div class="article-container">
+              
+              <img src="./assets/projects/icrm/Screenshot 2567-05-20 at 12.28.12.webp" class="project-img2"/>
+              <img src="./assets/projects/icrm/Screenshot 2567-05-20 at 12.28.26.webp" class="project-img2"/>
+              <img src="./assets/projects/icrm/Screenshot 2567-05-20 at 12.29.23.webp" class="project-img2"/>
+              <img src="./assets/projects/icrm/Screenshot 2567-05-20 at 12.29.37.webp" class="project-img2"/>
+              <img src="./assets/projects/icrm/Screenshot 2567-05-20 at 12.31.01.webp" class="project-img2"/>
+              <img src="./assets/projects/icrmScreenshot 2567-05-20 at 12.31.23.webp" class="project-img2"/>
+              <img src="./assets/projects/icrm/Screenshot 2567-05-20 at 12.31.35.webp" class="project-img2"/>
+              <img src="./assets/projects/icrm/Screenshot 2567-05-20 at 12.31.55.webp" class="project-img2"/>
+              <img src="./assets/projects/icrm/Screenshot 2567-05-20 at 12.32.06.webp" class="project-img2"/>
+              <img src="./assets/projects/icrm/Screenshot 2567-05-20 at 12.32.35.webp" class="project-img2"/>
+              
+          </div>
+          
+        </div>
+      </div>
+      
+      
+    </section>
+
+    <footer>
+      
+      <!--<p>Copyright &#169; 2023 Supanat Klins (endk44). All Rights Reserved.</p>-->
+    </footer>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
