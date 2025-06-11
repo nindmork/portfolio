@@ -7,6 +7,7 @@
     <title>Mork's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7JFWPHZKG"></script>
     <script>
@@ -48,10 +49,10 @@
     </nav>
 
     <section id="profile">
-      <div class="section__pic-container">
+      <div class="section__pic-container" data-aos="fade-right">
         <img src="./assets/profile-pic1.png" alt="John Doe profile picture" />
       </div>
-      <div class="section__text">
+      <div class="section__text" data-aos="fade-left">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Supanat Klins</h1>
         <p class="section__text__p2"> Programer/Developer and 3D Generalist</p>
@@ -91,14 +92,14 @@
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <div class="section__pic-container">
+        <div class="section__pic-container" data-aos="zoom-in">
           <img
             src="./assets/S__15114244 (0-00-01-28).jpg"
             alt="Profile picture"
             class="about-pic"
           />
         </div>
-        <div class="about-details-container">
+        <div class="about-details-container" data-aos="fade-up">
           <div class="about-containers">
             <div class="details-container">
               <img
@@ -140,7 +141,7 @@
       />
     </section>
     
-    <section id="projects">
+    <section id="projects" >
      
       <div class="content-container">
         <p class="section__text__p1">Browse My Recent</p>
@@ -735,6 +736,9 @@
     </footer>
     
     <script src="script.js"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
