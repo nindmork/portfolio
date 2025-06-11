@@ -20,7 +20,6 @@
   /* ตั้งค่าเพิ่มเติมสำหรับการแสดงภาพ */
 }
 
-
 body {
   font-family: "Poppins", sans-serif;
   
@@ -376,7 +375,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 2.5rem;  
   justify-content: space-around;
 }
 
@@ -395,6 +394,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin: 5rem;
 }
 
 .color-container {
@@ -473,3 +473,4 @@ footer {
 footer p {
   text-align: center;
 }
+
