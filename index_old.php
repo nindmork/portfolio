@@ -123,68 +123,49 @@
       </div>
 
       
-      
+    
      
 
       <div class="experience-details-container">
         <div class="about-containers">  
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/projects/CrispIP/Screenshot from 2024-12-12 10-03-26.webp"
-                alt="CrispIP"
-                class="project-img"
-              />
+          <?php
+              $datas =  [
+                [ "img" => "./assets/projects/CrispIP/Screenshot from 2024-12-12 10-03-26.webp",
+                  "alt" => "CrispIP",
+                  "title" => "CRISP IP - Smart Patent Prosecution with AI",
+                  "url" => "./project_crispip"
+                ],
+                [ "img" => "./assets/projects/CrispIP/Screenshot from 2024-12-12 10-03-26.webp",
+                  "alt" => "CrispIP",
+                  "title" => "iCRM - Backoffice customer management",
+                  "url" => "./project_icrm"
+                ],
+              ];
+          ?>
+          <?php 
+            foreach ($datas as $data): ?>
+          
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="<?php echo htmlspecialchars($data['img']); ?>"
+                  alt="<?php echo htmlspecialchars($data['alt']); ?>"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title"><?php echo htmlspecialchars($data['title']); ?></h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='<?php echo htmlspecialchars($data['url']); ?>'"
+                >
+                  Details
+                </button>
+              </div>
             </div>
-            <h2 class="experience-sub-title project-title">CRISP IP - Smart Patent Prosecution with AI</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='./project_crispip'"
-              >
-                Details
-              </button>
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/projects/Wattanapat-clone/Screenshot 2025-07-30 141936.webp"
-                alt="Wattanapat-clone"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Wattanapat-clone โรงพยาบาลวัฒนแพทย์ ตรัง -clone</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='./project_wattanapat-clone'"
-              >
-                Details
-              </button>
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/projects/icrm/project-1(0-00-13-28).jpg"
-                alt="ICRM"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">iCRM - Backoffice customer management</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='./project_icrm'"
-              >
-                Details
-              </button>
-            </div>
-          </div>
+          <?php endforeach; ?>
+          
 
           <div class="details-container color-container">
             <div class="article-container">
@@ -217,13 +198,32 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./project_librarycos'"
+                onclick="location.href='./project_librarycos.html'"
               >
                 Details
               </button>
             </div>
           </div>
           
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/projects/Threadpool/project-1 (0-00-13-28)_1.jpg"
+                alt="Threadpool in Rust"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Threadpool in Rust</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                
+                onclick="window.open('https://github.com/nindmork/threadpool_rust')"
+              >
+                Details
+              </button>
+            </div>
+          </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -236,7 +236,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./project_geniusexamseat'"
+                onclick="location.href='./project_geniusexamseat.html'"
               >
                 Details
               </button>
@@ -244,6 +244,7 @@
           </div>
         </div>
       </div>
+
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -254,7 +255,7 @@
         <button
           class="btn btn-color-2 project-btn"
           
-          onclick="location.href='./projectsDev'"
+          onclick="location.href='./projectsDev.html'"
           
         >
         More..
@@ -279,7 +280,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./project_mvjack1'">Details
+                onclick="location.href='./project_mvjack1.html'">Details
               </button>
             </div>
           </div>
@@ -331,7 +332,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./project_DaddysGirl'"
+                onclick="location.href='./project_DaddysGirl.html'"
               >
               Details
               </button>
@@ -349,7 +350,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./project_3YearKhanokporn'"
+                onclick="location.href='./project_3YearKhanokporn.html'"
               >
               Details
               </button>
@@ -367,7 +368,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./project_Tumyabork'"
+                onclick="location.href='./project_Tumyabork.html'"
               >
               Details
               </button>
@@ -385,7 +386,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./project_rescue'"
+                onclick="location.href='./project_rescue.html'"
               >
               Details
               </button>
@@ -404,7 +405,7 @@
         <button
           class="btn btn-color-2 project-btn"
           
-          onclick="location.href='./projects'"
+          onclick="location.href='./projects.html'"
         >
         More..
         </button>
@@ -461,7 +462,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Laravel</h3>
+                  <h3>Rest Framework</h3>
                   <p>Experienced</p>
                 </div>
               </article>

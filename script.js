@@ -20,3 +20,11 @@ function scrollToAbout(event) {
     window.scrollTo({ top: y, behavior: 'smooth' });
   }
 }
+
+function showLargeImage(imgElement) {
+  const overlay = document.getElementById('imageOverlay');
+  const overlayImg = document.getElementById('overlayImage');
+
+  overlayImg.src = imgElement.src;
+  overlay.classList.add('active');
+}
